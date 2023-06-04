@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRANDY</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bg.css">
+<body id="bg">
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="bx bx-dna"></i>
+                <span>Strandy</span>
+            </div>
+            <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="bx bxs-castle"></i>
+                    <span class="nav-item">Home page</span>
+                </a>
+                <span class="tooltip">Home page</span>
+            </li>
+            <li>
+                <a href="meme-wars.html">
+                    <i class="bx bxs-flag-alt"></i>
+                    <span class="nav-item">Meme Wars</span>
+                </a>
+                <span class="tooltip">Meme Wars</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bx bx-send"></i>
+                    <span class="nav-item">Meme Requests</span>
+                </a>
+                <span class="tooltip">Meme Requests</span>
+            </li>
+            <li>
+                <a href="about-us.html">
+                    <i class="bx bxs-book-content"></i>
+                    <span class="nav-item">About us</span>
+                </a>
+                <span class="tooltip">About us</span>
+            </li>
+        </ul>
+    </div>
+    <div class="maincontent">
+        <div>
+            <h1 style="margin-left: 180px; text-align: left; margin-bottom: 50px; margin-top: 50px; font-family: 'Courier New', Courier, monospace; color: white;">About us</h1>
+            <h2 style="margin-bottom: 25px; font-family: 'Courier New', Courier, monospace; color: white; margin-bottom: 50px;">Why we built it</h2>
+            <img src="content/why we built it.png" alt="Can't load image" width="45%" style="margin-bottom: 50px; margin-left: 150px;">
+            <img src="Admin-Profiles/friends.png" alt="Can't load image" width="40%" style="float: rights; margin-top: -150px;">
+            <h2 style="margin-bottom: 25px; font-family: 'Courier New', Courier, monospace; color: white; margin-bottom: 50px;">Join us!</h2>
+            <img src="Admin-Profiles/join us.png" alt="Can't load image" width="45%" style="float: right; margin-top: 15px; margin-right: 125px;">
+            <img src="Admin-Profiles/team.png" alt="Can't load image" width="40%" style="margin-bottom: 50px; margin-left: 10px;">
+            <h2 class="texts" style="margin-bottom: 25px;">Who are we?</h2>
+            <p class="texts" style="margin-bottom: 25px;">We are a group of Grade 11 STEM Students in Gallanosa National High School (GNHS)</p>
+            <table class="table">
+                <tr>
+                    <td><a href="#"><img src="Admin-Profiles/ken.png" alt="Can't load image" class="pfp"></a>
+                    <p class="texts">Ken Jezrael Balaoro</p>
+                    <p class="texts" style="margin-top: 25px;">Web Developer</p></td>
+                    <td><a href="#"><img src="Admin-Profiles/jl.png" alt="Can't load image" class="pfp"></a>
+                    <p class="texts">Joseph Lei Baraquiel</p><p class="texts" style="margin-top: 25px;">Web Developer</p></td>
+                    <td><a href="#"><img src="Admin-Profiles/mich.png" alt="Can't load image" class="pfp"></a><p class="texts"></p><p class="texts">Michelle Dollentas</p>
+                        <p class="texts" style="margin-top: 25px;">Content Writer</p></td>
+                    <td><a href="#"><img src="Admin-Profiles/alieza.png" alt="Can't load image" class="pfp"></a><p class="texts"></p><p class="texts">Alieza Lim</p>
+                        <p class="texts" style="margin-top: 25px;">Content Writer</p></td>
+                </tr>
+            </table>
+            <table class="table">
+                <tr>
+                    <td><a href="#"><img src="Admin-Profiles/eivan.png" alt="Can't load image" class="pfp"></a><p class="texts"></p><p class="texts">Eivan Michael Hugo</p>
+                        <p class="texts" style="margin-top: 25px;">Data Analyst</p></td>
+                    <td><a href="#"><img src="Admin-Profiles/ivan.png" alt="Can't load image" class="pfp"></a><p class="texts"></p><p class="texts">Francis Ivan Frivaldo</p>
+                        <p class="texts" style="margin-top: 25px;">Web Designer</p></td>
+                    <td><a href="#"><img src="Admin-Profiles/gab.png" alt="Can't load image" class="pfp"></a>
+                    <p class="texts"></p><p class="texts">Gabriel Fuensalida</p>
+                    <p class="texts" style="margin-top: 25px;">Project Manager</p></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+<script>
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar')
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active');
+    };
+</script>
+
+</html>

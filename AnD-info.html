@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRANDY</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bg.css">
+</head>
+<body id="bg4">
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="bx bxl-codepen"></i>
+                <span>Strandy</span>
+            </div>
+            <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="bx bxs-castle"></i>
+                    <span class="nav-item">Home page</span>
+                </a>
+                <span class="tooltip">Home page</span>
+            </li>
+            <li>
+                <a href="meme-wars.html">
+                    <i class="bx bxs-flag-alt"></i>
+                    <span class="nav-item">Meme Wars</span>
+                </a>
+                <span class="tooltip">Meme Wars</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bx bx-send"></i>
+                    <span class="nav-item">Meme Requests</span>
+                </a>
+                <span class="tooltip">Meme Requests</span>
+            </li>
+            <li>
+                <a href="about-us.html">
+                    <i class="bx bxs-book-content"></i>
+                    <span class="nav-item">About us</span>
+                </a>
+                <span class="tooltip">About us</span>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h2 style="text-align: left; margin-left: 150px; margin-top: 70px; font-family: 'Courier New', Courier, monospace; color: white; font-size: 30px;">What is the Arts and Design strand?</h2>
+        <table style="margin-right: 150px; text-align: right; margin-left: 150px; margin-top: 50px;">
+            <tr style="background-image: url(Admin-Profiles/background3.png);">
+                <td><img src="Admin-Profiles/AnDinfo/arts.png" alt="Can't load image" width="300px" style="margin: 30px;"></td>
+                <td><p class="contentxt" style="margin: 20px; text-align: justify; font-size: 20px;">The Arts and Design Strand provides students with a platform to explore their artistic talents, develop creative thinking, and gain a deep appreciation for various art forms. It encourages self-expression, fosters critical analysis, and nurtures the skills necessary for pursuing further education or careers in the arts and design industries.</p></td>
+            </tr>
+        </table>
+        <h2 style="text-align: center; margin-top: 70px; font-family: 'Courier New', Courier, monospace; color: white; font-size: 30px;">Strand Overview</h2>
+        <table style="margin-right: 150px; margin-left: 100px; margin-left: 150px; text-align: right; margin-top: 50px;">
+            <tr style="background-image: url(Admin-Profiles/background3.png);">
+                <td><p class="contentxt" style="margin: 30px; text-align: justify; font-size: 20px;">The Arts and Design Strand in high school offers a wide range of subjects that nurture students' artistic and creative abilities. It includes visual arts, performing arts, design, creative writing, art appreciation, and portfolio development. Students explore various art forms, develop their skills in music, dance, theater, and film, learn about design principles, engage in creative writing, appreciate and critique art, and build portfolios to showcase their work. This strand provides students with a comprehensive arts education experience, preparing them for further studies or careers in the arts and related fields.</p></td>
+                <td><img src="Admin-Profiles/AnDinfo/designer.png" alt="Can't load image" width="300px" style="margin: 30px;"></td>
+            </tr>
+        </table>
+        <h2 style="text-align: center; margin-top: 70px; font-family: 'Courier New', Courier, monospace; color: white; font-size: 30px;">Arts and Design Jobs You Can Pursue</h2>
+        <table class="table">
+            <tr>
+                <td>
+                    <ul class="frontxt" style="margin-top: 40px; position: fixeds; float: left; margin-left: 90px; font-size: 25px; color: white;">
+                        <li style="margin-bottom: 20px;">Graphic Designer</li>
+                        <li style="margin-bottom: 20px;">Animatior</li>
+                        <li style="margin-bottom: 20px;">Fashion Designer</li>
+                        <li style="margin-bottom: 20px;">Interior Designer</li>
+                    </ul>
+                        <ul class="frontxt" style="margin-top: 40px; position: fixeds; float: left; margin-left: 90px; font-size: 25px; color: white;">
+                        <li style="margin-bottom: 20px;">UX Designer</li>
+                        <li style="margin-bottom: 20px;">Web Designer</li>
+                        <li style="margin-bottom: 20px;">Industrial Designer</li>
+                        <li style="margin-bottom: 20px;">Art Director</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+<script>
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar')
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active');
+    };
+</script>
+
+</html>
