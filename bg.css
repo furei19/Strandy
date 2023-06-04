@@ -1,0 +1,70 @@
+#bg1 {
+    background-image: url("Admin-Profiles/background1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1010px;
+}
+
+#bg3 {
+    background-image: url("Admin-Profiles/background3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;;
+}
+
+.table2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bg {
+    background-image: url("Admin-Profiles/background2.png");
+    background-position: right;
+}
+
+#bg4 {
+    background-image: url("Admin-Profiles/background4.png");
+    background-position: center;
+    height: 1700px;
+}
+
+#bg5 {
+    background-image: url("Admin-Profiles/background5.png");
+    background-position: center;
+    height: 1700px;
+}
+
+#bg6 {
+    background-image: url("Admin-Profiles/background6.png");
+    background-position: center;
+    height: 1700px;
+}
+
+.texts {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.frontxt {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.frontxt2 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contentxt {
+    font-family: 'Courier New', Courier, monospace;
+    color: black
+}
+
+.contentxt2 {
+    margin: 200px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black
+}
