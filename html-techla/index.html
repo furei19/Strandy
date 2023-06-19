@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRANDY</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bg.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="bx bx-dna"></i>
+                <span>Strandy</span>
+            </div>
+            <i class="bx bx-menu" style="font-size: 30px;" id="btn"></i>
+        </div>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="bx bxs-castle" style="font-size: 30px;"></i>
+                    <span class="nav-item">Home page</span>
+                </a>
+                <span class="tooltip">Home page</span>
+            </li>
+            <li>
+                <a href="meme-wars.html">
+                    <i class="bx bxs-flag-alt" style="font-size: 30px;"></i>
+                    <span class="nav-item">Meme Wars</span>
+                </a>
+                <span class="tooltip">Meme Wars</span>
+            </li>
+            <li>
+                <a href="about-us.html">
+                    <i class="bx bxs-book-content" style="font-size: 30px;"></i>
+                    <span class="nav-item">About us</span>
+                </a>
+                <span class="tooltip">About us</span>
+            </li>
+            <li>
+                <a href="login.html">
+                    <i class="bx bxs-user-account" style="font-size: 30px;"></i>
+                    <span class="nav-item">Account</span>
+                </a>
+                <span class="tooltip">Account</span>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <center>
+        <div id="gifbg">
+            <img src="Admin-Profiles/Strandy.png" alt="">
+        </div>
+        </center>
+        <div  id="bg1">
+            <table class="table" style="margin-bottom: -50px;">
+                <tr>
+                    <td><p style="font-family: 'Times New Roman', Times, serif; font-size: 40px; font-style: italic; margin-top: 40px;">-"For Students, By Students"</p></td>
+                </tr>
+            </table>
+            <div class="grow">
+                <table class="table" style="margin-bottom: -50px;">
+                    <tr>
+                        <td><a href="stem-info.html"><img src="logos/stemlogo.png" alt="Can't load image" class="imgsize"></a></td>
+                        <td><a href="abm-info.html"><img src="logos/abmlogo.png" alt="Can't load image" class="imgsize"></a></td>
+                        <td><a href="humss-info.html"><img src="logos/humsslogo.png" alt="Can't load image" class="imgsize"></a></td>
+                        <td><a href="gas-info.html"><img src="logos/gaslogo.png" alt="Can't load image" class="imgsize"></a></td>
+                    </tr>
+                </table>
+                <table class="table">
+                    <tr>
+                        <td><a href="AnD-info.html"><img src="logos/andlogo.png" alt="Can't load image" class="imgsize"></a></td>
+                        <td><a href="TVL-info.html"><img src="logos/tvllogo.png" alt="Can't load image" class="imgsize"></a></td>
+                        <td><a href="sports-info.html"><img src="logos/sportslogo.png" alt="Can't load image" class="imgsize"></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar')
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active');
+    };
+</script>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRANDY</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bg.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="bx bx-dna"></i>
+                <span>Strandy</span>
+            </div>
+            <i class="bx bx-menu" style="font-size: 30px;" id="btn"></i>
+        </div>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="bx bxs-castle" style="font-size: 30px;"></i>
+                    <span class="nav-item">Home page</span>
+                </a>
+                <span class="tooltip">Home page</span>
+            </li>
+            <li>
+                <a href="meme-wars.html">
+                    <i class="bx bxs-flag-alt" style="font-size: 30px;"></i>
+                    <span class="nav-item">Meme Wars</span>
+                </a>
+                <span class="tooltip">Meme Wars</span>
+            </li>
+            <li>
+                <a href="about-us.html">
+                    <i class="bx bxs-book-content" style="font-size: 30px;"></i>
+                    <span class="nav-item">About us</span>
+                </a>
+                <span class="tooltip">About us</span>
+            </li>
+            <li>
+                <a href="login.html">
+                    <i class="bx bxs-user-account" style="font-size: 30px;"></i>
+                    <span class="nav-item">Account</span>
+                </a>
+                <span class="tooltip">Account</span>
+            </li>
+        </ul>
+    </div>
+    <div style="background-image: url(Admin-Profiles/background\ login1.png); background-position: center; background-size: 2000px; background-repeat: no-repeat;">
+        <img src="Admin-Profiles/kencanva.png" alt="" style="margin-top: 20px; margin-bottom: 140px; margin-left: 60px; width: 582px;">
+        <div>
+            <table style="float: right; margin-top: -600px;">
+                <tr>
+                    <td><img src="Admin-Profiles/login.png" alt="" style="margin-top: -100px;"></td>
+                </tr>
+                <tr>
+                    <td><p style="color: black; font-size: 20px; text-align: center; margin-top: -125px;">Welcome! You can login using username or gmail</p><p style="color: black; font-size: 20px; text-align: center; margin-top: px;">Not registered? <a href="">Create an account here!</a></p></td>
+                </tr>
+                <tr>
+                    <td><p class="logintxt" style="margin-top: -50px;">Username: <input type="text" style="height: 30px; background-color: transparent; width: 400px; border: 0px;"></p></td>
+                </tr>
+                <tr>
+                    <td><p class="logintxt" style="margin-top: 20px;">Password: <input type="password" style="height: 30px; background-color: transparent; border: 0px; width: 400px;"></p></td>
+                </tr>
+                <tr>
+                    <td><p class="logintxt1" style="margin-top: 20px; text-align: center;">Login</p></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+<script>
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar')
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active');
+    };
+</script>
+</html>
